@@ -1,4 +1,4 @@
-package L1_Sorting_Algorithms.L2_Bubble_Sort;
+package L1_Sorting_Algorithms.L1_Bubble_Sort;
 
 import java.util.Arrays;
 import java.util.Scanner;
