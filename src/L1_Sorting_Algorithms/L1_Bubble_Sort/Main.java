@@ -11,6 +11,14 @@ public class Main {
         //20, 30, 10, 70, 60, 40, 50, 80, 90
         int[] array = new int[] {90, 80, 70, 60, 50, 40, 30, 20, 10};
 
+
+        /*
+        Bubble sort algorithm work by swapping adjacent elements if they're not in the desired order.
+        This process repeats from the beginning of the array until all elements are in order.
+        All elements are in order when we manage to do the whole iteration without swapping at all
+        - then all elements we compared were in the desired order with their adjacent elements,
+        and by extension, the whole array.
+        */
         for (int i = 0; i < array.length; i++) {
 
             for (int j = 0; j < array.length - 1; j++) {
