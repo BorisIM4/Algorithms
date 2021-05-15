@@ -1,4 +1,5 @@
 import L1_Sorting_Algorithms.L1_Bubble_Sort.BubbleSort;
+import L1_Sorting_Algorithms.L2_Insertion_sort.InsertionSort;
 import L1_Sorting_Algorithms.L6_Quick_Sort.QuickSort;
 
 import java.util.Arrays;
@@ -19,8 +20,9 @@ public class Main {
 
         //Call one of the sorting algorithms
         //Bubble, insertion.....
+//        BubbleSort.sortArray(array);
+        InsertionSort.sort(array);
 //        QuickSort.sortingInteger(array);
-        BubbleSort.sortArray(array);
 
         //Print sorted array
         System.out.println("This is sorted array:");
