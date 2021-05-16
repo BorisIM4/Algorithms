@@ -4,6 +4,8 @@ public class SelectionSort {
 
     //20, 30, 10, 70, 60, 40, 50, 80, 90
 
+    //Selection sort swap current element with the minimum element on the array.
+
     public static void sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int minElementPosition = i;
